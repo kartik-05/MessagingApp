@@ -1,3 +1,37 @@
+<h1 align="center">Messaging App</h1>
+
+## Insight
+ 
+ - It has a functionslity to send and receive messages.
+ - It has a functionslity to create chat rooms.
+ - Firebase database is used for storing messages and rooms information.
+ - Firebase Authentication is used for user Authentication.
+ - Material-UI is used for UI stuff.
+ - The complete project is made with React.
+
+## Screenshots
+
+![](src/components/images/messagingAppGIF.gif)
+
+## Built With
+
+- React
+- Firebase
+- Material UI
+
+## Author
+
+**Kartik Attri**
+
+- [Profile](https://github.com/kartik-05 "Kartik Attri")
+
+## 🤝 Support
+
+Contributions, issues, and feature requests are welcome!
+
+Give a ⭐️ if you like this project!
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +102,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## 🤝 Support
+
+Contributions, issues, and feature requests are welcome!
+
+Give a ⭐️ if you like this project!
