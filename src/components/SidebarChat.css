@@ -1,0 +1,82 @@
+*{
+    color: white;
+}
+
+.sidebarchat-container{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    width: 16vw;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.sidebarchat-container:hover{
+    background-color: #323337;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.sidebarchat-info {
+    margin-left: 15px;
+}
+
+.sidebarchat-info h4{
+    color: #E5E5E5;    
+    font-weight: 700;
+}
+
+.sidebarchat-info div{
+    font-size: 0.9rem;
+    color: #c9c9c9;    
+    margin-top: 5px;
+
+}
+
+.sidechat-create-room{
+    margin-top: 20px;
+    font-size: 0.55rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.sidechat-create-room > h1{
+    color: rgb(233, 233, 233);
+
+    font-weight: 800;
+}
+
+.sidechat-available-chatroom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: #C2C2C2;
+    cursor: pointer;
+}
+
+.sidebarchat-user-image{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30%;
+    height: 30px;
+    width: 30px;
+    border:6px solid #252728;    
+}
+
+.sidebarchat-user-image > img{
+    height: inherit;
+    width: inherit;
+    border-radius: 30%;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+

@@ -1,0 +1,50 @@
+.App{
+  height: 100vh;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App::after{
+  content: '';
+  position: absolute;
+  background: url('./components/images/ImgLeft.png') no-repeat center center/cover;
+  height: 500px;
+  width: 500px;
+  bottom: 0px;
+  left: -130px;
+  z-index: 1;
+}
+
+.App::before{
+  content: '';
+  position: absolute;
+  background: url('./components/images/ImgRight.png') no-repeat center center/cover;
+  height: 500px;
+  width: 500px;
+  bottom: 0px;
+  right: -120px;
+}
+
+.chatbox-container{
+  display: flex;
+  height: 90vh;
+  width: 80vw;
+  background-color: #161819;
+  border-radius: 20px;
+  box-shadow: 0px 5px 30px rgb(0,0,0);
+  border: 8px solid rgba(255, 255, 255, 0.15);
+  z-index: 2;
+}
+
+.login-Container-landing-page{
+  height: 74vh;
+  width: 28.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: linear-gradient(to right bottom,rgba(255,255,255,0.5),rgba(255,255,255,0.3));
+  backdrop-filter: blur(300px);
+}
