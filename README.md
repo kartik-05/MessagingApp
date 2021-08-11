@@ -1,5 +1,9 @@
 <h1 align="center">Messaging App</h1>
 
+## Screenshots
+
+![](src/components/images/messagingAppGIF.gif)
+
 ## Insights
  
  - It has a functionslity to send and receive messages.
@@ -9,13 +13,9 @@
  - Material-UI is used for UI stuff.
  - The complete project is made with React.
 
-## Screenshots
-
-![](src/components/images/messagingAppGIF.gif)
-
 ## Built With
 
-- React
+- React , Redux , React Context Api's
 - Firebase
 - Material UI
 
