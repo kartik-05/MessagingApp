@@ -1,6 +1,6 @@
 <h1 align="center">Messaging App</h1>
 
-## Insight
+## Insights
  
  - It has a functionslity to send and receive messages.
  - It has a functionslity to create chat rooms.
